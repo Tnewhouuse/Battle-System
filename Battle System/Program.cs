@@ -30,8 +30,8 @@ namespace Battle_System
 
             string playerClassChoice = OptionCheck("Select your class from the list below:\n" +
                 "1: Fighter\n" +
-                "2: Not Implemented\n" +
-                "3: Not Implemented", 
+                "2: Mage\n" +
+                "3:  brute\n", 
                 new string[] { "1" });
 
             if (playerClassChoice == "1")

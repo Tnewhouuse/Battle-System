@@ -35,4 +35,22 @@ namespace Battle_System.Classes.Entities
             EquipItem(new Weapon("sword", "a basic sword", 1));
         }
     }
+    public class Mage : Player
+    {
+        public Mage(string name) : base(name)
+        {
+            strength = 2;
+            ClassName = "Mage";
+            EquipItem(new Weapon("staff", "a basic sword", 1));
+        }
+    }
+    public class Brute : Player
+    {
+        public Brute(string name) : base(name)
+        {
+            strength = 10;
+            ClassName = "Brute";
+            EquipItem(new Weapon("sword", "a basic sword", 1));
+        }
+    }
 }
